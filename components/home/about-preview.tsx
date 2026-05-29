@@ -35,10 +35,14 @@ export function AboutPreview() {
               <span className="text-accent">la gastronomie</span>
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              {`SOGAR, Société Gabonaise de Restauration, incarne l'excellence culinaire depuis sa création. Notre équipe de chefs passionnés marie avec talent les saveurs traditionnelles africaines aux techniques de la cuisine internationale.`}
+              {`Sogar assure des prestations de restauration et de gestion logistique destinées aux sociétés pétrolières, minières, industrielles ainsi qu’aux organismes publics et privés.
+
+L’entreprise intervient dans la restauration collective (catering), l’exploitation et la gestion des camps et bases-vie, la cuisine pour collectivités publiques et privées, ainsi que les services traiteur.
+
+Sogar fournit également des prestations de services domestiques à bord des navires, plates-formes pétrolières et sites industriels, la gestion d’hôtels et motels, la mise à disposition de personnel qualifié et spécialisé, ainsi que la location de matériels et équipements.`}
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              {`Chaque plat que nous créons raconte une histoire, celle d'un Gabon riche de ses traditions et ouvert sur le monde. Notre engagement : vous offrir une expérience gastronomique inoubliable.`}
+              {`L’entreprise propose en outre des solutions logistiques intégrées et divers services d’assistance adaptés aux besoins de sa clientèle.`}
             </p>
             
             <div className="mt-8 grid grid-cols-3 gap-8">
