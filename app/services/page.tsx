@@ -4,86 +4,86 @@ import Link from "next/link"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Check, Utensils, Users, Wine, Building2, Truck, Clock } from "lucide-react"
+import { ArrowRight, Check, Ship, Building2, Tent, ShieldCheck, Truck, Users } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Nos Services | SOGAR",
-  description: "Découvrez les services de restauration SOGAR : événementiel, restauration collective, cocktails, traiteur. Excellence culinaire pour tous vos besoins.",
+  title: "Nos Solutions de Catering & Logistique | SOGAR",
+  description: "Découvrez l'excellence opérationnelle de SOGAR au Gabon : catering offshore et onshore, restauration collective, gestion complète de bases-vies et logistique de pointe.",
 }
 
 const services = [
   {
-    id: "evenementiel",
-    icon: Utensils,
-    title: "Restauration Événementielle",
-    subtitle: "Mariages, anniversaires, cérémonies",
-    description: "Transformez vos moments spéciaux en souvenirs inoubliables grâce à notre expertise culinaire. De la conception du menu à la mise en scène, nous créons des expériences gastronomiques sur mesure.",
-    image: "/images/catering-event.jpg",
+    id: "offshore",
+    icon: Ship,
+    title: "Catering Offshore & Onshore",
+    subtitle: "Secteurs Pétrolier, Gazier et Maritime",
+    description: "Une offre de restauration haut de gamme taillée pour les environnements extrêmes et isolés. Nous garantissons une continuité de service irréprochable et des menus équilibrés pour préserver le moral et la productivité de vos équipes sur les plateformes et sites de forage.",
+    image: "/images/catering-offshore.jpg", // Pense à adapter l'image dans ton dossier public
     features: [
-      "Menus personnalisés selon vos goûts",
-      "Service à table ou buffet",
-      "Décoration et mise en place",
-      "Personnel qualifié et élégant",
-      "Gestion complète de l'événement",
+      "Menus adaptés aux exigences nutritionnelles des métiers de l'énergie",
+      "Approvisionnements sécurisés par navires ou convois terrestres",
+      "Maîtrise absolue de la chaîne du froid en milieu tropical",
+      "Cuisiniers et boulangers formés aux standards internationaux",
+      "Zéro compromis sur la sécurité et les protocoles d'embarquement",
     ],
   },
   {
     id: "collective",
     icon: Building2,
     title: "Restauration Collective",
-    subtitle: "Entreprises, institutions, collectivités",
-    description: "Des solutions de restauration adaptées aux besoins des organisations. Menus équilibrés, service régulier et qualité constante pour le bien-être de vos équipes.",
+    subtitle: "Entreprises, Sièges Sociaux et Administrations",
+    description: "Des solutions de restauration sur site ou livrées adaptées au rythme de vos collaborateurs. Nous concevons des espaces de vie conviviaux et une cuisine saine, variée et locale pour le bien-être quotidien de vos équipes au Gabon.",
     image: "/images/corporate.jpg",
     features: [
-      "Menus variés et équilibrés",
-      "Respect des normes d'hygiène strictes",
-      "Flexibilité des volumes",
-      "Livraison quotidienne",
-      "Tarifs compétitifs",
+      "Plans de menus diversifiés et renouvelés régulièrement",
+      "Respect strict des normes d'hygiène et traçabilité des produits",
+      "Capacité de production flexible (de 50 à plus de 1000 couverts)",
+      "Gestion et animation des restaurants d'entreprise",
+      "Optimisation des coûts de fonctionnement",
     ],
   },
   {
-    id: "cocktails",
-    icon: Wine,
-    title: "Cocktails & Réceptions",
-    subtitle: "Soirées prestige et networking",
-    description: "Impressionnez vos invités avec des cocktails raffinés et des amuse-bouches créatifs. L'alliance parfaite entre élégance et saveurs pour vos réceptions.",
-    image: "/images/dish-2.jpg",
+    id: "bases-vies",
+    icon: Tent,
+    title: "Gestion de Bases-vies & Camps",
+    subtitle: "Solutions Multi-services 'Remote Sites'",
+    description: "Au-delà de l'assiette, nous prenons en charge la gestion globale de vos infrastructures de vie. De l'hôtellerie au nettoyage industriel, SOGAR transforme vos camps de brousse ou bases côtières en environnements confortables et sécurisés.",
+    image: "/images/remote-camps.jpg",
     features: [
-      "Cocktails créatifs et classiques",
-      "Canapés et amuse-bouches",
-      "Stations de dégustation",
-      "Service de barman professionnel",
-      "Ambiance sonore sur demande",
+      "Blanchisserie industrielle et entretien de la literie",
+      "Nettoyage et désinfection des espaces communs et cabines",
+      "Gestion des déchets et maintenance de premier niveau",
+      "Intégration et respect rigoureux de vos plans HSE sur site",
+      "Gestion des stocks et économat décentralisé",
     ],
   },
   {
-    id: "traiteur",
+    id: "logistique",
     icon: Truck,
-    title: "Service Traiteur",
-    subtitle: "Livraison et mise en place",
-    description: "Un service traiteur complet pour vos événements privés ou professionnels. De la préparation à la livraison, nous gérons tout pour vous.",
-    image: "/images/dish-1.jpg",
+    title: "Logistique Subsistance & Support",
+    subtitle: "Supply Chain & Approvisionnements Critiques",
+    description: "SOGAR déploie une chaîne logistique robuste pour acheminer vivres frais, secs et congelés là où les autres s'arrêtent. Grâce à nos infrastructures de stockage à Port-Gentil, nous sécurisons vos approvisionnements face aux aléas.",
+    image: "/images/logistics-sogar.jpg",
     features: [
-      "Large choix de plats",
-      "Livraison à domicile ou sur site",
-      "Options végétariennes et régimes spéciaux",
-      "Matériel de service inclus",
-      "Service de récupération",
+      "Flotte de véhicules frigorifiques normés et géo-localisés",
+      "Entrepôts de stockage en froid positif et négatif",
+      "Sourcing rigoureux auprès de fournisseurs agréés",
+      "Capacité de déploiement d'urgence sur alerte",
+      "Gestion documentaire et douanière pour le fret local",
     ],
   },
 ]
 
 const additionalServices = [
   {
-    icon: Users,
-    title: "Location de personnel",
-    description: "Serveurs, cuisiniers, maîtres d'hôtel qualifiés pour renforcer vos équipes.",
+    icon: ShieldCheck,
+    title: "Conformité HSE & Démarche HACCP",
+    description: "Tous nos processus opérationnels intègrent les standards de sécurité les plus stricts de l'industrie minière et pétrolière.",
   },
   {
-    icon: Clock,
-    title: "Service 24h/24",
-    description: "Disponibles à toute heure pour vos événements nocturnes ou de dernière minute.",
+    icon: Users,
+    title: "Mise à disposition de Personnel Spécialisé",
+    description: "Boulangers, chefs de camp, stewards et agents de maintenance qualifiés et briefés aux exigences de vos sites.",
   },
 ]
 
@@ -92,30 +92,33 @@ export default function ServicesPage() {
     <>
       <Header />
       <main className="pt-20">
-        {/* Hero */}
-        <section className="relative py-24 bg-secondary overflow-hidden">
+        
+        {/* Section Hero */}
+        <section className="relative py-24 bg-slate-900 overflow-hidden">
+          {/* Pattern en arrière-plan */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute inset-0" style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C9A962' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FACC15' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
             }} />
           </div>
+          
           <div className="relative mx-auto max-w-7xl px-6 lg:px-8 text-center">
-            <p className="text-accent text-sm uppercase tracking-[0.3em] font-medium mb-6">
-              Nos Services
+            <p className="text-yellow-400 text-xs uppercase tracking-[0.3em] font-bold mb-6">
+              Expertise B2B & Industrielle
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-tight">
-              Une expertise culinaire
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+              Des solutions logistiques et de catering
               <br />
-              <span className="text-accent">à votre service</span>
+              <span className="text-yellow-400">sur mesure au Gabon</span>
             </h1>
-            <p className="mt-6 text-xl text-muted-foreground max-w-2xl mx-auto">
-              {`Découvrez notre gamme complète de services de restauration, conçus pour répondre à tous vos besoins avec excellence et passion.`}
+            <p className="mt-6 text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
+              De l&apos;onshore à l&apos;offshore, nous gérons la subsistance et le support opérationnel de vos équipes avec la rigueur des plus hauts standards industriels.
             </p>
           </div>
         </section>
 
-        {/* Services List */}
-        <section className="py-24 bg-background">
+        {/* Liste des Services Principaux */}
+        <section className="py-24 bg-white">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="space-y-32">
               {services.map((service, index) => (
@@ -126,46 +129,49 @@ export default function ServicesPage() {
                     index % 2 === 1 ? 'lg:grid-flow-dense' : ''
                   }`}
                 >
-                  {/* Image */}
+                  {/* Image & Icône flottante */}
                   <div className={`relative ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                    <div className="aspect-[4/3] relative overflow-hidden rounded-lg shadow-2xl">
+                    <div className="aspect-[4/3] relative overflow-hidden rounded-xl shadow-xl border border-slate-100">
                       <Image
                         src={service.image}
                         alt={service.title}
                         fill
                         className="object-cover"
+                        sizes="(max-w-1024px) 100vw, 50vw"
                       />
                     </div>
-                    <div className="absolute -bottom-6 -left-6 lg:-bottom-8 lg:-left-8 bg-accent p-4 lg:p-6 rounded-lg shadow-xl">
-                      <service.icon className="h-10 w-10 lg:h-12 lg:w-12 text-accent-foreground" />
+                    {/* Badge icône corporate jaune */}
+                    <div className="absolute -bottom-6 -left-6 lg:-bottom-8 lg:-left-8 bg-yellow-400 p-4 lg:p-5 rounded-xl shadow-lg border-4 border-white">
+                      <service.icon className="h-8 w-8 lg:h-10 lg:w-10 text-slate-950" />
                     </div>
                   </div>
 
-                  {/* Content */}
+                  {/* Contenu Textuel */}
                   <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
-                    <p className="text-accent text-sm uppercase tracking-[0.2em] font-medium mb-2">
+                    <p className="text-yellow-600 text-xs uppercase tracking-[0.2em] font-bold mb-2">
                       {service.subtitle}
                     </p>
-                    <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
+                    <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-950">
                       {service.title}
                     </h2>
-                    <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
+                    <p className="mt-4 text-slate-600 text-base sm:text-lg leading-relaxed">
                       {service.description}
                     </p>
                     
+                    {/* Liste des features */}
                     <ul className="mt-8 space-y-3">
                       {service.features.map((feature) => (
-                        <li key={feature} className="flex items-center gap-3">
-                          <Check className="h-5 w-5 text-accent shrink-0" />
-                          <span className="text-foreground">{feature}</span>
+                        <li key={feature} className="flex items-start gap-3">
+                          <Check className="h-5 w-5 text-yellow-500 shrink-0 mt-0.5" />
+                          <span className="text-slate-800 text-sm sm:text-base">{feature}</span>
                         </li>
                       ))}
                     </ul>
 
-                    <Button asChild className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90" size="lg">
+                    <Button asChild className="mt-8 bg-slate-950 text-white hover:bg-slate-900 font-semibold" size="lg">
                       <Link href="/contact">
-                        Demander un devis
-                        <ArrowRight className="ml-2 h-4 w-4" />
+                        Demander une étude technique
+                        <ArrowRight className="ml-2 h-4 w-4 text-yellow-400" />
                       </Link>
                     </Button>
                   </div>
@@ -175,15 +181,15 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Additional Services */}
-        <section className="py-24 bg-secondary">
+        {/* Section Prestations Complémentaires */}
+        <section className="py-24 bg-slate-50 border-y border-slate-100">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
-                Services complémentaires
+              <h2 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
+                Engagements & Services Supports
               </h2>
-              <p className="mt-4 text-muted-foreground text-lg">
-                {`Des prestations additionnelles pour une expérience complète.`}
+              <p className="mt-4 text-slate-600 text-lg">
+                Des prestations transversales intégrées pour garantir la conformité globale de vos opérations.
               </p>
             </div>
 
@@ -191,30 +197,30 @@ export default function ServicesPage() {
               {additionalServices.map((service) => (
                 <div 
                   key={service.title}
-                  className="bg-card p-8 rounded-lg border border-border shadow-sm"
+                  className="bg-white p-8 rounded-xl border border-slate-100 shadow-sm transition-shadow hover:shadow-md"
                 >
-                  <service.icon className="h-10 w-10 text-accent mb-4" />
-                  <h3 className="text-xl font-semibold text-card-foreground">{service.title}</h3>
-                  <p className="mt-2 text-muted-foreground">{service.description}</p>
+                  <service.icon className="h-10 w-10 text-yellow-500 mb-4" />
+                  <h3 className="text-lg font-bold text-slate-950">{service.title}</h3>
+                  <p className="mt-2 text-sm text-slate-600 leading-relaxed">{service.description}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="py-24 bg-accent">
+        {/* Section d'Appel à l'Action Final */}
+        <section className="py-24 bg-yellow-400">
           <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-accent-foreground">
-              Prêt à nous confier votre événement ?
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-950">
+              Un projet de déploiement ou une consultation ?
             </h2>
-            <p className="mt-4 text-lg text-accent-foreground/80 max-w-xl mx-auto">
-              {`Contactez-nous pour un devis personnalisé et gratuit. Notre équipe vous répondra dans les 24 heures.`}
+            <p className="mt-4 text-lg text-slate-900 max-w-2xl mx-auto leading-relaxed">
+              Nos équipes d&apos;ingénierie commerciale étudient vos cahiers des charges et contraintes HSE pour vous proposer une offre de services rationalisée sous 48 heures.
             </p>
-            <Button asChild size="lg" className="mt-8 bg-background text-foreground hover:bg-background/90">
+            <Button asChild size="lg" className="mt-8 bg-slate-950 text-white hover:bg-slate-900 font-semibold shadow-md">
               <Link href="/contact">
-                Demander un devis gratuit
-                <ArrowRight className="ml-2 h-4 w-4" />
+                Contacter notre pôle Opérations
+                <ArrowRight className="ml-2 h-4 w-4 text-yellow-400" />
               </Link>
             </Button>
           </div>
