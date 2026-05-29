@@ -33,7 +33,7 @@ const services = [
     title: "Restauration Collective",
     subtitle: "Entreprises, Sièges Sociaux et Administrations",
     description: "Des solutions de restauration sur site ou livrées adaptées au rythme de vos collaborateurs. Nous concevons des espaces de vie conviviaux et une cuisine saine, variée et locale pour le bien-être quotidien de vos équipes au Gabon.",
-    image: "/images/corporate.jpg",
+    image: "https://popmenucloud.com/cdn-cgi/image/width=1200,height=630,format=auto,fit=cover/wlnhojez/f7e82237-8ca6-4a60-acb4-f81927ea6183.jpg",
     features: [
       "Plans de menus diversifiés et renouvelés régulièrement",
       "Respect strict des normes d'hygiène et traçabilité des produits",
