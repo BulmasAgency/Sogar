@@ -33,7 +33,7 @@ export function Footer() {
               className="h-32 w-auto"
             />
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              {`L'excellence culinaire au service de vos événements depuis plus de 20 ans.`}
+              {`L'expérience fais la différence, c'est pourquoi nos services sont demandés et redemandés !!!`}
             </p>
           </div>
 
@@ -78,14 +78,14 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 shrink-0 text-accent" />
                 <span className="text-sm text-muted-foreground">
-                  Libreville, Gabon<br />
-                  Boulevard Triomphal Omar Bongo
+                  Port-Gentil, Gabon<br />
+                  Mosquée
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 shrink-0 text-accent" />
-                <a href="tel:+24101234567" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  +241 01 23 45 67
+                <a href="tel:+241074802912" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  +241 74 80 29 12
                 </a>
               </li>
               <li className="flex items-center gap-3">
