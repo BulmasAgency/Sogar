@@ -48,7 +48,7 @@ const services = [
     title: "Gestion de Bases-vies & Camps",
     subtitle: "Solutions Multi-services 'Remote Sites'",
     description: "Au-delà de l'assiette, nous prenons en charge la gestion globale de vos infrastructures de vie. De l'hôtellerie au nettoyage industriel, SOGAR transforme vos camps de brousse ou bases côtières en environnements confortables et sécurisés.",
-    image: "/images/remote-camps.jpg",
+    image: "https://popmenucloud.com/cdn-cgi/image/width=1200,height=630,format=auto,fit=cover/wlnhojez/f7e82237-8ca6-4a60-acb4-f81927ea6183.jpg",
     features: [
       "Blanchisserie industrielle et entretien de la literie",
       "Nettoyage et désinfection des espaces communs et cabines",
