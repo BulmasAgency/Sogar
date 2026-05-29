@@ -2,35 +2,35 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    content: "SOGAR a transformé notre mariage en une expérience gastronomique exceptionnelle. Chaque plat était une œuvre d'art, et le service impeccable.",
-    author: "Marie & Jean Ndong",
-    role: "Mariage - Libreville",
+    content: "Sur nos plateformes offshore, la logistique de restauration est un défi quotidien. SOGAR assure un service irréprochable, maintenant un niveau de qualité constant pour nos équipes, dans le respect total de nos exigences HSE.",
+    author: "Responsable Logistique & Base-vie",
+    role: "Secteur Offshore – Opérations Perenco",
   },
   {
-    content: "Depuis 5 ans, SOGAR gère la restauration de notre entreprise. La qualité est constante, les équipes professionnelles. Un partenaire de confiance.",
-    author: "Pierre Obame",
-    role: "Directeur Général - TOTAL Gabon",
+    content: "Un partenaire de confiance depuis plusieurs années pour la gestion de nos camps onshore. Leur réactivité opérationnelle et leur rigueur dans l'approvisionnement des sites isolés font toute la différence sur le terrain.",
+    author: "Directeur des Opérations Site",
+    role: "Production Onshore – Environnement Assala",
   },
   {
-    content: "Pour notre gala annuel de 300 personnes, SOGAR a su allier élégance et efficacité. Les retours de nos invités ont été unanimement positifs.",
-    author: "Sylvie Mba",
-    role: "Organisatrice d'événements",
+    content: "La gestion de la restauration collective pour nos équipes nécessite une organisation sans faille. SOGAR combine parfaitement savoir-faire culinaire et rigueur industrielle. Nos collaborateurs sont pleinement satisfaits.",
+    author: "Superviseur Services Généraux",
+    role: "Infrastructures & Collectivités – Maurel & Prom",
   },
 ]
 
 export function TestimonialsSection() {
   return (
-    <section className="py-24 bg-secondary">
+    <section className="py-24 bg-slate-50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto">
-          <p className="text-accent text-sm uppercase tracking-[0.2em] font-medium mb-4">
-            Témoignages
+          <p className="text-yellow-600 text-sm uppercase tracking-[0.2em] font-semibold mb-4">
+            Témoignages & Références
           </p>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground">
-            Ce que disent
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900">
+            La confiance des leaders
             <br />
-            <span className="text-accent">nos clients</span>
+            <span className="text-yellow-500">de l'énergie au Gabon</span>
           </h2>
         </div>
 
@@ -39,15 +39,19 @@ export function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="relative bg-card rounded-lg p-8 border border-border"
+              className="relative bg-white rounded-lg p-8 border border-slate-100 shadow-md flex flex-col justify-between"
             >
-              <Quote className="h-10 w-10 text-accent/40 mb-4" />
-              <p className="text-foreground/90 leading-relaxed mb-6">
-                {`"${testimonial.content}"`}
-              </p>
-              <div className="border-t border-border pt-4">
-                <p className="font-semibold text-foreground">{testimonial.author}</p>
-                <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+              <div>
+                {/* Icône de citation aux couleurs du logo SOGAR */}
+                <Quote className="h-10 w-10 text-yellow-400/40 mb-4" />
+                <p className="text-slate-700 italic leading-relaxed mb-6">
+                  {`"${testimonial.content}"`}
+                </p>
+              </div>
+              
+              <div className="border-t border-slate-100 pt-4">
+                <p className="font-bold text-slate-900">{testimonial.author}</p>
+                <p className="text-sm font-medium text-yellow-600 mt-0.5">{testimonial.role}</p>
               </div>
             </div>
           ))}
