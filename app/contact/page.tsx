@@ -24,7 +24,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Secrétariat & Commercial",
-    content: "contact@sogar-gabon.com", // Placeholder pro cohérent avec le domaine
+    content: "contact@sogar-gabon.com",
     href: "mailto:contact@sogar-gabon.com",
   },
   {
@@ -205,6 +205,7 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   )
 }
