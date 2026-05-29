@@ -35,9 +35,9 @@ export function AboutPreview() {
               <span className="text-accent">la gastronomie</span>
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed text-lg">
-              {`Sogar assure des prestations de restauration et de gestion logistique destinées aux sociétés pétrolières, minières, industrielles ainsi qu’aux organismes publics et privés.
+              {`Sogar assure des prestations de restauration et de gestion logistique destinées aux sociétés pétrolières, minières, industrielles ainsi qu’aux organismes publics et privés.<br />
 
-L’entreprise intervient dans la restauration collective (catering), l’exploitation et la gestion des camps et bases-vie, la cuisine pour collectivités publiques et privées, ainsi que les services traiteur.
+L’entreprise intervient dans la restauration collective (catering), l’exploitation et la gestion des camps et bases-vie, la cuisine pour collectivités publiques et privées, ainsi que les services traiteur.<br />
 
 Sogar fournit également des prestations de services domestiques à bord des navires, plates-formes pétrolières et sites industriels, la gestion d’hôtels et motels, la mise à disposition de personnel qualifié et spécialisé, ainsi que la location de matériels et équipements.`}
             </p>
