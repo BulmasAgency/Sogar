@@ -18,7 +18,7 @@ const services = [
     title: "Catering Offshore & Onshore",
     subtitle: "Secteurs Pétrolier, Gazier et Maritime",
     description: "Une offre de restauration haut de gamme taillée pour les environnements extrêmes et isolés. Nous garantissons une continuité de service irréprochable et des menus équilibrés pour préserver le moral et la productivité de vos équipes sur les plateformes et sites de forage.",
-    image: "/images/catering-offshore.jpg", // Pense à adapter l'image dans ton dossier public
+    image: "https://www.google.com/imgres?q=Catering%20Offshore%20%26%20Onshore&imgurl=https%3A%2F%2Fpsdoilandgas.com%2Fassets%2Fimages%2Fpages%2Fonshore%2Fportfolio-slide-big-1.jpg&imgrefurl=https%3A%2F%2Fpsdoilandgas.com%2FOnshore-Offshore-Catering-services&docid=W1_IUpWKnISbAM&tbnid=63WYlJ4jSSSl5M&vet=12ahUKEwiDu-Pu8d6UAxWRhf0HHXHRO5YQnPAOegQIHRAB..i&w=969&h=589&hcb=2&ved=2ahUKEwiDu-Pu8d6UAxWRhf0HHXHRO5YQnPAOegQIHRAB", // Pense à adapter l'image dans ton dossier public
     features: [
       "Menus adaptés aux exigences nutritionnelles des métiers de l'énergie",
       "Approvisionnements sécurisés par navires ou convois terrestres",
@@ -48,7 +48,7 @@ const services = [
     title: "Gestion de Bases-vies & Camps",
     subtitle: "Solutions Multi-services 'Remote Sites'",
     description: "Au-delà de l'assiette, nous prenons en charge la gestion globale de vos infrastructures de vie. De l'hôtellerie au nettoyage industriel, SOGAR transforme vos camps de brousse ou bases côtières en environnements confortables et sécurisés.",
-    image: "https://popmenucloud.com/cdn-cgi/image/width=1200,height=630,format=auto,fit=cover/wlnhojez/f7e82237-8ca6-4a60-acb4-f81927ea6183.jpg",
+    image: "https://sotramo.com/servicelocation/base-de-vie-et-ses-equipements-normalises.html",
     features: [
       "Blanchisserie industrielle et entretien de la literie",
       "Nettoyage et désinfection des espaces communs et cabines",
@@ -63,7 +63,7 @@ const services = [
     title: "Logistique Subsistance & Support",
     subtitle: "Supply Chain & Approvisionnements Critiques",
     description: "SOGAR déploie une chaîne logistique robuste pour acheminer vivres frais, secs et congelés là où les autres s'arrêtent. Grâce à nos infrastructures de stockage à Port-Gentil, nous sécurisons vos approvisionnements face aux aléas.",
-    image: "/images/logistics-sogar.jpg",
+    image: "https://www.mth-location.fr/vehicules/camions-frigorifiques",
     features: [
       "Flotte de véhicules frigorifiques normés et géo-localisés",
       "Entrepôts de stockage en froid positif et négatif",
