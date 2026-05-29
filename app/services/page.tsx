@@ -48,7 +48,7 @@ const services = [
     title: "Gestion de Bases-vies & Camps",
     subtitle: "Solutions Multi-services 'Remote Sites'",
     description: "Au-delà de l'assiette, nous prenons en charge la gestion globale de vos infrastructures de vie. De l'hôtellerie au nettoyage industriel, SOGAR transforme vos camps de brousse ou bases côtières en environnements confortables et sécurisés.",
-    image: "https://sotramo.com/servicelocation/base-de-vie-et-ses-equipements-normalises.html",
+    image: "https://sotramo.com/images/equipements-normalises/164.jpg",
     features: [
       "Blanchisserie industrielle et entretien de la literie",
       "Nettoyage et désinfection des espaces communs et cabines",
@@ -63,7 +63,7 @@ const services = [
     title: "Logistique Subsistance & Support",
     subtitle: "Supply Chain & Approvisionnements Critiques",
     description: "SOGAR déploie une chaîne logistique robuste pour acheminer vivres frais, secs et congelés là où les autres s'arrêtent. Grâce à nos infrastructures de stockage à Port-Gentil, nous sécurisons vos approvisionnements face aux aléas.",
-    image: "https://www.mth-location.fr/vehicules/camions-frigorifiques",
+    image: "https://www.mth-location.fr/sites/default/files/styles/fc_content_img_float/public/vehicules/img-pres/14t_frigo.jpg?itok=_RTOp0n6",
     features: [
       "Flotte de véhicules frigorifiques normés et géo-localisés",
       "Entrepôts de stockage en froid positif et négatif",
