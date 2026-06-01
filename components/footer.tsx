@@ -79,7 +79,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 shrink-0 text-yellow-500" />
                 <span className="text-sm text-slate-400 leading-relaxed">
-                  Quartier Mosquée, Port-Gentil<br />
+                  Cité Akosso, Port-Gentil<br />
                   B.P. 2902, Gabon
                 </span>
               </li>
