@@ -13,7 +13,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Siège Social",
-    content: "Quartier Mosquée, Port-Gentil\nB.P. 2902, Gabon",
+    content: "Cité Akosso, Port-Gentil\nB.P. 2902, Gabon",
   },
   {
     icon: Phone,
